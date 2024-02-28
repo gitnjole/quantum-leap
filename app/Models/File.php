@@ -11,10 +11,10 @@ class File extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name',
+        'filename',
+        'mime',
         'path',
-        'size',
-        'mime_type'
+        'filesize'
     ];
 
     protected $hidden = [
@@ -24,11 +24,6 @@ class File extends Model
     public function user()
     {
         return $this->belongsTo(User::class);
-    }
-
-    public static function store()
-    {
-
     }
 
     public function download()
