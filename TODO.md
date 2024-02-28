@@ -7,7 +7,8 @@
 - [ ] Partials & blade components
 - [ ] Background & styling
 - [ ] User registration
-- [ ] Migrations
+- [x] Migrations
+- [x] Database records
 - [ ] Search filter
 - [ ] Validate and secure files stored
 
