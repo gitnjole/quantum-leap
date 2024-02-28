@@ -1,26 +1,15 @@
 # Currently Working
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] Upload form
 
 # TODO implement
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [ ] Partials & blade components
+- [ ] Background & styling
+- [ ] User registration
+- [ ] Migrations
+- [ ] Search filter
+- [ ] Validate and secure files stored
 
 # Wishlist
 
