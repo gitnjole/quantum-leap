@@ -18,6 +18,10 @@ Route::get('/',[
     FileController::class, 'index'
 ]);
 
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::get('/file', [
     FileController::class, 'create'
 ]);
