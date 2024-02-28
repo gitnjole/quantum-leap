@@ -143,3 +143,6 @@
       text-decoration: none;
   } 
   
+  .error {
+    color:#DC143C
+  }
