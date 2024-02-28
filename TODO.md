@@ -1,14 +1,14 @@
 # Currently Working
 
 - [x] Upload form
+- [x] Migrations
+- [x] Database records
 
 # TODO implement
 
 - [ ] Partials & blade components
 - [ ] Background & styling
 - [ ] User registration
-- [x] Migrations
-- [x] Database records
 - [ ] Search filter
 - [ ] Validate and secure files stored
 
