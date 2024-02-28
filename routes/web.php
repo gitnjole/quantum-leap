@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\FileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FileController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,18 +15,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Navigation related routes
 Route::get('/',[
     FileController::class, 'index'
 ]);
 
-Route::get('/about', function () {
+Route::get('about', function () {
     return view('about');
 });
 
-Route::get('/file', [
+// File uploading related routes
+Route::get('file', [
     FileController::class, 'create'
 ]);
 
-Route::post('/file', [
+Route::post('file', [
     FileController::class, 'store'
+]);
+
+// User related routes
+Route::get('login', [
+    UserController::class, 'login'
+]);
+
+Route::post('user/authenticate', [
+    UserController::class,'authenticate'
 ]);
