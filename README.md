@@ -1,13 +1,13 @@
 # Quantum Leap
 
-A simple file transfer website, currently in production. Quantum only has basic neccessary functions to make the website work, with time it will become a full fledged file transfer web application. Please see [a relative link](TODO.md) for current progress and [a link](https://gitnjole.github.io/projects/quantum-leap/) for a more in depth explanation of the production process.
+A simple file transfer website, currently in production. Quantum only has basic necessary functions to make the website work, with time it will become a full fledged file transfer web application. Please see [TODO](TODO.md) for current progress and my [project site](https://gitnjole.github.io/projects/quantum-leap/) for a more in depth explanation of the production process.
 
 ## Features
 - **File management:** Users can upload and manage their files
 
 ## Installation
 
-These are current instructions, upon completeion I would like to make the application deployable through Docker.
+These are current instructions, upon completion I would like to make the application deployable through Docker.
 
 1. Clone the repository to your local machine:
 ```bash
