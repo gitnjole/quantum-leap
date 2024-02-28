@@ -72,6 +72,8 @@
     text-align: right; 
     padding-right: 20px; 
     display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
     justify-content: flex-end;
   }
   
@@ -100,24 +102,19 @@
       margin-left: 2px;
   } 
   
-  .main-navigation li  { 
-      display: inline-block; 
-      text-transform: uppercase; 
-      margin: 0; 
-      padding: 0; 
-      margin-left: 1rem; 
-      font-size: 1.25rem;
-  } 
-  
-  .main-navigation li  { 
-      font-size: 7rem; 
-      line-height: 92%; 
-      text-transform: uppercase; 
-      font-weight: 700; 
-      transition: font 0.25s; 
-      display: block;
-  } 
-  
+  .main-navigation li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    font-size: 7rem;
+    line-height: 92%;
+    font-weight: 700;
+    transition: font 0.25s;
+    white-space: nowrap;
+  }
+
   li:before { 
       content: '—'; 
       height: 1em; 
